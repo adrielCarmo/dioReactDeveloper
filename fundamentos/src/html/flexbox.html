@@ -51,8 +51,8 @@
 
 <body>
     <hr />
-    <h2>Flexbox</h2>
-    <div class="flex">
+    <h2 id="title">Flexbox</h2>
+    <div class="flex" id="lista">
         <div class="item">a</div>
         <div class="item">b</div>
         <div class="item">c</div>
@@ -60,6 +60,10 @@
         <div class="item">e</div>
     </div>
 
+    <div>
+        <input name="email" type="text">
+        <button onclick="window.document.getElementById('title').remove()">REMOVER TÍTULO</button>
+    </div>
 </body>
 
 </html>
