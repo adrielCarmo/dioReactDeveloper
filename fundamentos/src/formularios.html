@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <style>
+        /*AQUI FICA O CÓDIGO DE CSS */
+        body {
+            margin: 50;
+            padding: 0;
+            background-color: rgb(0, 0, 0);
+            color: rgb(255, 255, 255);
+        }
+        h2 {
+            font-size: 32px;
+            border: red;
+            padding: 25px 0px 25px 0px;
+            margin: 0px 0px 10px 50px;
+            border-style: solid;
+            color: red;
+        }
+        #email {
+            border: 0;
+            background-color: #128112;
+            height: 52p;
+        }
+    </style>
+</head>
+
+<body>
+    <hr />
+    <h2>Formulário</h2>
+    <div>
+        <form action="" method="get">
+            <div>
+                <label for="nome">Nome:</label>
+                <br />
+                <input type="text" name="nome" id="nome">
+            </div>
+            <br>
+            <div>
+                <label for="email">E-mail:</label>
+                <br/>
+                <input type="text" name="email" id="email">
+            </div>
+            <br>
+            <div>
+                <label for="mensagem">Mensagem:</label>
+                <br/> <!-- A TAG BR NÃO É UMA BOA PRÁTICA -->
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+            </div>
+            <br><br>
+            <div>
+                <button>Enviar</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
