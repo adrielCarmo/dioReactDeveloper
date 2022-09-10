@@ -7,11 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flexbox</title>
     <style>
+        body {
+            background-color: #a8a0a0;
+        }
+
         .flex {
             display: flex;
             width: 100%;
-            justify-content: space-around;
-            flex-direction: column;
+            flex-direction: row;
             align-items: center;
         }
 
@@ -32,6 +35,16 @@
             background-color: red;
             border-radius: 10px;
             transition: linear 0.6s;
+        }
+
+        @media (max-width: 450px) {
+            body {
+                background-color: #bd7d7d;
+            }
+
+            .flex {
+                flex-direction: column;
+            }
         }
     </style>
 </head>
