@@ -19,7 +19,7 @@ if (media > 7) {
 }
 
 // estrutura com switch
-switch(media) {
+switch (media) {
     case media > 7:
         console.log("Acima da Média!");
         break;
@@ -27,7 +27,7 @@ switch(media) {
         console.log("Na Média!");
         break;
     default:
-        console.log("Abaixo da Média!");    
+        console.log("Abaixo da Média!");
 }
 
 // estrutura com ternário:
