@@ -16,4 +16,4 @@ alunos.push({
     idade: 15
 });
 
-console.log(alunos[1].idade);
+console.log(`O aluno ${alunos[0].nome} tem ${alunos[0].idade} anos de idade!`);
