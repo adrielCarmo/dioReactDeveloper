@@ -45,7 +45,7 @@ const idades = alunos.reduce((acc, aluno) => {
 console.log(idades);
 
 const menorDeNove = alunos.some(alunos => alunos.idade < 10);
-const menorQueCem = alunos.every(alunos => alunos.idade < 100);
+const menorQueCemm = alunos.every(alunos => alunos.idade < 100);
 
 console.log(menorDeNove);
-console.log(menorQueCem);
+console.log(menorQueCemm);
