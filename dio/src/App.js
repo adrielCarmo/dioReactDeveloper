@@ -2,7 +2,9 @@
 
 function App() { 
   return (
-    <div className="App">Olá React!</div>
+    <div className="App">
+      <h1>Olá React!</h1>
+    </div>
   );
 }
 
