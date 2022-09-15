@@ -1,8 +1,8 @@
-function App() {
+// COMPONENTE FUNCIONAL
+
+function App() { 
   return (
-    <div className="App">
-      Olá React!
-    </div>
+    <div className="App">Olá React!</div>
   );
 }
 
