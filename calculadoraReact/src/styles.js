@@ -1,15 +1,14 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
 `
 
 export const Content = styled.div`
     background-color: #FFFFFF;
     width: 50vw;
-    min-height: 350px;
-    margin-bottom: 6.5rem;
+    min-height: 350px; 
     margin: auto;
 `
 
