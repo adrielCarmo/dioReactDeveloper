@@ -1,6 +1,8 @@
 
 import Input from './components/Input'
 import Button from './components/Button'
+import Title from './components/Title'
+import Footer from './components/Footer'
 
 import { Container, Content, Row } from './styles';
 import { useState } from 'react';
@@ -83,7 +85,7 @@ const App = () => {
           break;
         case '/':
           handleDivNumbers();
-          break; 
+          break;
         default:
           break;
       }
@@ -92,6 +94,7 @@ const App = () => {
 
   return (
     <Container>
+      <Title></Title>
       <Content>
         <Input value={currentNumber} />
         <Row>
@@ -119,6 +122,9 @@ const App = () => {
           <Button label="=" onClick={handleEquals} />
         </Row>
       </Content>
+      <footer>
+        <Footer></Footer>
+      </footer>
     </Container>
   );
 }

@@ -1,19 +1,16 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    width: 100%;
+    width: 100vw;
     height: 100vh;
-    background-color: #CACACA;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
 `
 
 export const Content = styled.div`
     background-color: #FFFFFF;
-    width: 50%;
-    min-heigth: 350px;
+    width: 50vw;
+    min-height: 350px;
+    margin-bottom: 6.5rem;
+    margin: auto;
 `
 
 export const Row = styled.div`
